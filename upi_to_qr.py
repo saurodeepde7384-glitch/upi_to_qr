@@ -1,8 +1,6 @@
 import qrcode
-# qrcode LIBRARY - TO GENERATE QR CODE ( pip install qrcode )
-# pillow LIBRARY INSTALLED TO SHOW THE IMAGE (pip install pillow)
 import time
-# time LIBRARY - TO INTRODUCE DELAY 
+ 
 print()
 print()
 print("~~~~~~~~~~~~~    UPI TO  QR  GENERATOR   ~~~~~~~~~~~~~~~~~")
@@ -17,12 +15,10 @@ def gen_qr():
     print("Generating your UPI QR code...")
     time.sleep(2)
 
-    # .make FUNCTION TO GENERATE THE QR
     upi_qr= qrcode.make(upi_url)
     print("Here is your UPI QR code:")
     time.sleep(1)
 
-    # .show FUNCTION TO DISPLAY THE QR CODE
     upi_qr.show()
 
 while True:
