@@ -1,9 +1,9 @@
-🧾 UPI QR Code Generator (Python)
+* UPI QR Code Generator (Python) 
 
 A simple Python tool to generate UPI payment QR codes instantly using the qrcode library.
 Just enter your UPI ID, and the script creates a QR code that can be scanned for payments.
 
-✨ Features
+# Features
 
 Generate UPI QR codes with your UPI ID
 
@@ -13,14 +13,14 @@ Loop mode — create multiple QR codes without restarting the script
 
 Clean & simple CLI based interaction
 
-📌 Requirements
+# Requirements
 
 Make sure you have Python installed, then install the dependencies:
 
 pip install qrcode
 pip install pillow
 
-🚀 How to Run
+# How to Run
 
 Clone / Download the project
 
@@ -40,7 +40,7 @@ Enter your upi id: yourname@upi
 The QR code will open as an image.
 Scan it using any UPI app like PhonePe, Google Pay, Paytm, etc.
 
-📝 Code Explanation
+# Code Explanation
 
 qrcode → Generates QR code images
 
@@ -48,7 +48,7 @@ pillow → Displays generated QR code
 
 time → Adds delay for better user experience
 
-⚠️ Notes
+# Notes
 
 Currently, the script uses only the UPI ID (pa field).
 
@@ -56,7 +56,7 @@ If needed, you can add name (pn), amount (am) etc. later in the format:
 
 upi://pay?pa={upi_id}&pn={Name}&am={Amount}&cu=INR
 
-📸 Example Output (Console)
+# Example Output (Console)
 ~~~~~~~~~~~~~    UPI TO QR GENERATOR   ~~~~~~~~~~~~~~~~~
 
 Do you want to generate UPI QR code? (yes/no): yes
@@ -64,7 +64,7 @@ Enter your upi id: example@upi
 Generating your UPI QR code...
 Here is your UPI QR code:
 
-🤝 Contributing
+# Contributing
 
 Feel free to fork and enhance:
 
