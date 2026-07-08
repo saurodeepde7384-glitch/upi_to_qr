@@ -56,14 +56,6 @@ If needed, you can add name (pn), amount (am) etc. later in the format:
 
 upi://pay?pa={upi_id}&pn={Name}&am={Amount}&cu=INR
 
-# Example Output (Console)
-~~~~~~~~~~~~~    UPI TO QR GENERATOR   ~~~~~~~~~~~~~~~~~
-
-Do you want to generate UPI QR code? (yes/no): yes
-Enter your upi id: example@upi
-Generating your UPI QR code...
-Here is your UPI QR code:
-
 # Contributing
 
 Feel free to fork and enhance:
