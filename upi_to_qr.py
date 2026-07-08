@@ -6,11 +6,12 @@ print()
 print("~~~~~~~~~~~~~    UPI TO  QR  GENERATOR   ~~~~~~~~~~~~~~~~~")
 print()
 print()
+
 def gen_qr():
     upi_id = input("Enter your upi id: ")
 
     # FORMAT OF UPI URL IS (upi://pay?pa={upi_id}&pn={name}&am={amount}&cu=INR). 
-    time.sleep(1)
+    time.sleep(1) #Cooldown to Beautify
     upi_url = f"upi://pay?pa={upi_id}"
     print("Generating your UPI QR code...")
     time.sleep(2)
@@ -23,6 +24,7 @@ def gen_qr():
 
 while True:
     x= input("Do you want to generate UPI QR code? (yes/no): ").strip().lower()
+    
     if x == 'yes'or x == 'y':
         gen_qr()
         
