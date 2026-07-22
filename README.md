@@ -17,8 +17,8 @@ Clean & simple CLI based interaction
 
 Make sure you have Python installed, then install the dependencies:
 
-pip install qrcode
-pip install pillow
+pip3 install qrcode
+pip3 install pillow
 
 # How to Run
 
