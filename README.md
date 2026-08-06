@@ -5,7 +5,7 @@ Just enter your UPI ID, and the script creates a QR code that can be scanned for
 
 # Features
 
-Generate UPI QR codes with your UPI ID
+Generate UPI QR codes with your UPI ID (input)
 
 Displays the generated QR code image
 
