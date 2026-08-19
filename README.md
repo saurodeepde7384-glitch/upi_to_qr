@@ -70,4 +70,4 @@ Create a web version
 
 # License
 
-This project is open-source and free to use.
+This project is open-source and free to use for **educational purposes**.
