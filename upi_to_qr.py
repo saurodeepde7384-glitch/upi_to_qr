@@ -16,19 +16,19 @@ def gen_qr():
     print("Generating your UPI QR code...")
     time.sleep(2)
 
-    upi_qr= qrcode.make(upi_url)
+    upi_qr = qrcode.make(upi_url)
     print("Here is your UPI QR code:")
     time.sleep(1)
 
     upi_qr.show()
 
 while True:
-    x= input("Do you want to generate UPI QR code? (yes/no): ").strip().lower()
+    x = input("Do you want to generate UPI QR code? (yes/no): ").strip().lower()
     
-    if x == 'yes'or x == 'y':
+    if x == 'yes' or x == 'y':
         gen_qr()
         
-    elif x == 'no' or x=='n':
+    elif x == 'no' or x =='n':
         print("Exiting the program.")
         break
     else:
