@@ -9,7 +9,7 @@ Generate UPI QR codes with your UPI ID (input)
 
 Displays the generated QR code image
 
-Loop mode — create multiple QR codes without restarting the script
+Loop Mode — create multiple QR codes without restarting the script
 
 Clean & simple CLI based interaction
 
